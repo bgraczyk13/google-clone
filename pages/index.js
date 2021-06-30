@@ -53,6 +53,7 @@ export default function Home() {
           src="https://www.google.co.uk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
           height={100}
           width={300}
+          alt=""
         />
         <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md rounded-full border border-gray-200 px-5 py-3 items-center sm:max-w-xl lg:max-w-2xl">
           <SearchIcon className="h-5 mr-3 text-gray-600" />
@@ -60,6 +61,7 @@ export default function Home() {
             ref={searchInputRef}
             type="text"
             className="flex-grow focus:outline-none"
+            alt=""
           />
           <MicrophoneIcon className="h-5 text-blue-500" />
         </div>
